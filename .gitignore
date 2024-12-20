@@ -11,6 +11,7 @@ target/
 *.iws
 *.iml
 *.ipr
+*/.vcx.xml
 
 ### Eclipse ###
 .apt_generated
@@ -37,3 +38,6 @@ vcs.xml
 
 ### Mac OS ###
 .DS_Store
+
+target/
+.idea
