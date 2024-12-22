@@ -19,7 +19,7 @@ public class LaunchChromeBrowser {
         BrowserContext browserContext = browser.newContext(new Browser.NewContextOptions().setScreenSize(width,height));
         Page page = browserContext.newPage();
         System.out.println("Self");
-        page.navigate("http://way2automation.com");
+        page.navigate("http://facebook.com");
         System.out.println(page.title());
         Thread.sleep(2000);
         page.close();

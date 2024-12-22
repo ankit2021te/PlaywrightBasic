@@ -16,7 +16,7 @@ public class NonIgnitioMode {
         BrowserContext browserContext = playwright.chromium().launchPersistentContext(Paths.get(""),new BrowserType.LaunchPersistentContextOptions().setHeadless(false));
 
         Page page = browserContext.newPage();
-        page.navigate("http://way2automation.com");
+        page.navigate("http://facebook.com");
         System.out.println("Title is: "+page.title());
 
 

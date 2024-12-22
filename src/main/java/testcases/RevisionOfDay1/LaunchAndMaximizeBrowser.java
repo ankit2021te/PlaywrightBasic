@@ -16,7 +16,7 @@ public class LaunchAndMaximizeBrowser {
         arrayList.add("--start-maximized");
         Browser browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setChannel("chrome").setHeadless(false).setArgs(arrayList));
         Page page = browser.newPage(new Browser.NewPageOptions().setViewportSize(null));
-        page.navigate("http://way2automation.com");
+        page.navigate("http://facebook.com");
         System.out.println("Title is: "+page.title());
         Thread.sleep(2000);
         browser.close();

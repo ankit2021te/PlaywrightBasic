@@ -11,7 +11,7 @@ public class LaunchBrowser {
         Playwright playwright = Playwright.create();
         Browser browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
         Page page = browser.newPage();
-        page.navigate("http://way2automation.com");
+        page.navigate("http://facebook.com");
         System.out.println(page.title());
         page.close();
         playwright.close();
